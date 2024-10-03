@@ -1,0 +1,10 @@
+3.+:
+  - org.jetbrains.kotlinx:kotlinx-rpc-krpc-ktor-server:$kotlinx-rpc
+  - org.jetbrains.kotlinx:kotlinx-rpc-krpc-ktor-client:$kotlinx-rpc
+  - org.jetbrains.kotlinx:kotlinx-rpc-krpc-serialization-json:$kotlinx-rpc
+
+kotlinx-rpc: 0.3.0
+# can it be
+#kotlinx-rpc: 0.3.* # or something?
+kotlin:
+  max: 2.0.10

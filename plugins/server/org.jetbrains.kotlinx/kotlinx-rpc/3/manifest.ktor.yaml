@@ -1,0 +1,19 @@
+name: kotlinx.rpc
+description: Add kotlinx.rpc routings to your Ktor application
+vcsLink: https://github.com/Kotlin/kotlinx-rpc
+license: Apache 2.0
+category: Routing
+gradle:
+  plugins:
+    - id: org.jetbrains.kotlinx.rpc.plugin
+      version: $kotlinx-rpc
+prerequisites:
+  - routing
+  - kotlinx-serialization
+installation:
+  default: install.kt
+  sources:
+    - SampleService.kt
+    - client.kt
+  in_routing: routing.kt
+  test_function: test.kt
