@@ -1,0 +1,3 @@
+"[3.0,)":
+  - org.jetbrains.kotlinx:kotlinx-rpc-grpc-ktor-server:$kotlinx-rpc-grpc
+  
